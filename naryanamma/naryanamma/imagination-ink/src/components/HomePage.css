@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.homepage {
+  text-align: center;
+  color: #3f3f3f;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  display: inline;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #3f3f3f;
+  font-weight: bold;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.login-button,
+.register-button {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 0.25rem;
+}
+
+.login-button {
+  background-color: #6c757d;
+}
+
+.register-button {
+  background-color: #6c7a52;
+}
+
+.main-content {
+  padding: 4rem 2rem;
+}
+
+.main-content h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #3f3f3f;
+}
+
+.main-content p {
+  font-size: 1.25rem;
+  color: #6c757d;
+}
+
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.start-button,
+.learn-button {
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 0.25rem;
+  font-weight: bold;
+}
+
+.start-button {
+  background-color: #6c7a52;
+}
+
+.learn-button {
+  background-color: #3f3f3f;
+}
